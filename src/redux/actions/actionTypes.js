@@ -1,0 +1,2 @@
+//Action Names:
+export const BUY_CAKE = 'BUY_CAKE'
