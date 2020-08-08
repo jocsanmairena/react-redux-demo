@@ -2,6 +2,7 @@ import React from 'react'
 //The useSelectors hooks method is used to map "redux store state values" as property of the HooksCakeContainer
 //The useDispatch hooks method is used to map "redux store state values" as property of the HooksCakeContainer
 import { useSelector, useDispatch } from 'react-redux'
+import { buyCake } from '../redux/actions/actionFunctions'
 
 const HooksCakeContainer = () => {
     //the useSelector hooks receive the store state as is parameter, from which we can specify the state value you want to retrive as a property of the HooksCakeContainer component.
